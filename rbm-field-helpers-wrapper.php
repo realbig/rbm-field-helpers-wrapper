@@ -296,7 +296,7 @@ if ( ! class_exists( 'RBM_Field_Helpers_Wrapper' ) ) {
  * @since	  1.0.0
  * @return	  \RBM_Field_Helpers_Wrapper The one true RBM_Field_Helpers_Wrapper
  */
-add_action( 'plugins_loaded', 'rbm_field_helpers_wrapper_load' );
+add_action( 'plugins_loaded', 'rbm_field_helpers_wrapper_load', 1 );
 function rbm_field_helpers_wrapper_load() {
 
 	require_once __DIR__ . '/core/rbm-field-helpers-wrapper-functions.php';
