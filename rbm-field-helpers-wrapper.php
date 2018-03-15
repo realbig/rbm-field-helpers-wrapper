@@ -299,6 +299,11 @@ if ( ! class_exists( 'RBM_Field_Helpers_Wrapper' ) ) {
 add_action( 'plugins_loaded', 'rbm_field_helpers_wrapper_load', 1 );
 function rbm_field_helpers_wrapper_load() {
 
+	if ( ! defined( 'RBM_FH_DEPRECATED_SUPPORT' ) ) {
+
+		define( 'RBM_FH_DEPRECATED_SUPPORT', true );
+	}
+
 	require_once __DIR__ . '/core/rbm-field-helpers-wrapper-functions.php';
 	RBMFIELDHELPERSWRAPPER();
 
