@@ -3,7 +3,7 @@
  * Plugin Name: RBM Field Helpers Wrapper
  * Plugin URI: https://github.com/realbig/rbm-field-helpers-wrapper
  * Description: A simple wrapper plugin for RBM Field Helpers. It uses the legacy "_rbm" prefix and may be a good option in cases where you have legacy RBM FH data and you do not want to bother migrating it
- * Version: 1.0.1
+ * Version: 1.0.2
  * Text Domain: rbm-field-helpers-wrapper
  * Author: Eric Defore
  * Author URI: https://realbigmarketing.com/
