@@ -82,3 +82,6 @@ release:
     - "!./**/bower_components/**/*.*"
     - "!./**/README.md"
     - "!./**/*.zip"
+    - "!./**/config.yml"
+    - "!./**/gulpfile.babel.js"
+    - "!./**/*.sh"
