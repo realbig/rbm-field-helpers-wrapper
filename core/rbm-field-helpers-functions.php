@@ -79,6 +79,17 @@ function rbm_fh_do_field_text( $args = array() ) {
 }
 
 /**
+ * Outputs a password field.
+ *
+ * @since {{VERSION}}
+ *
+ * @param array $args
+ */
+function rbm_fh_do_field_password( $args = array() ) {
+	rbm_fh()->fields->do_field_password( $args['name'], $args );
+}
+
+/**
  * Outputs a textarea field.
  *
  * @since 1.0.0
