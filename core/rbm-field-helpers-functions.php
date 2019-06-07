@@ -81,7 +81,7 @@ function rbm_fh_do_field_text( $args = array() ) {
 /**
  * Outputs a password field.
  *
- * @since {{VERSION}}
+ * @since 1.0.4
  *
  * @param array $args
  */
