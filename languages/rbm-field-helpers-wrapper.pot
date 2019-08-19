@@ -14,7 +14,7 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: core/rbm-field-helpers-functions.php:267
+#: core/rbm-field-helpers-functions.php:278
 msgctxt "%s is the Field Type"
 msgid "A callback function called \"rbm_fh_do_field_%s\" does not exist."
 msgstr ""
