@@ -266,6 +266,17 @@ function rbm_fh_do_field_repeater( $args = array() ) {
 }
 
 /**
+ * Outputs a hook
+ *
+ * @since {{VERSION}}
+ *
+ * @param mixed $values
+ */
+function rbm_fh_do_field_hook( $args = array() ) {
+	rbm_fh()->fields->do_field_hook( $args['name'], $args );
+}
+
+/**
  * Outputs a String if a Callback Function does not exist for an Options Page Field
  *
  * @since 1.0.0
