@@ -268,7 +268,7 @@ function rbm_fh_do_field_repeater( $args = array() ) {
 /**
  * Outputs a hook
  *
- * @since {{VERSION}}
+ * @since 1.1.3
  *
  * @param mixed $values
  */
