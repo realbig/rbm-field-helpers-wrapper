@@ -308,6 +308,7 @@ function releaseCopy() {
     '!core/rbm-field-helpers/{bin,bin/**}',
     '!core/rbm-field-helpers/{node_modules,node_modules/**}',
     '!core/rbm-field-helpers/**/*.zip',
+    '!core/rbm-field-helpers/**/*.map',
         'languages/**/*',
         'templates/**/*',
         textDomain + '.php',

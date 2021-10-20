@@ -13,12 +13,12 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: core/rbm-field-helpers-functions.php:289
-msgctxt "%s is the Field Type"
-msgid "A callback function called \"rbm_fh_do_field_%s\" does not exist."
-msgstr ""
-
 #: rbm-field-helpers-wrapper.php:71
 msgctxt "Outdated Dependency Error"
 msgid "%s requires v%s of %s or higher to be installed!"
+msgstr ""
+
+#: core/rbm-field-helpers-functions.php:289
+msgctxt "%s is the Field Type"
+msgid "A callback function called \"rbm_fh_do_field_%s\" does not exist."
 msgstr ""
